@@ -1,0 +1,393 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav{
+    margin: 10px 60px;
+    width: 100%;
+    height: 80px;
+    display: flex;  
+}
+.font{
+color:limegreen;
+margin-bottom: 100px;
+}
+.font:hover{
+color:white;
+cursor: pointer;
+}
+.nav p{
+font-size: 38px;
+font-weight: 700;
+color: limegreen;
+}
+.nav h6{
+    width:81px;
+    height: 38px;
+    font-size: 10px;
+    font-weight: 200;
+    color: white;
+    background-color: black;
+    margin:15px;
+    padding: 5px 2px;
+    text-align: center;
+    clip-path: polygon(8% 3%, 100% 0%, 92% 100%, 0% 100%);
+
+}
+nav ul{
+list-style: none;
+display: flex;  
+     align-items: center;
+     justify-content: center;
+     padding-left: 80px;
+}
+nav ul li{
+    padding-left: 30px;
+    font-size: 15px;
+    font-weight: 600;
+}
+nav ul li a{
+    color: gray;
+}
+nav ul li a:hover{
+    color: black;
+    border-bottom: 20px;
+}
+#parent{
+    height: max-content;
+    background-color:limegreen;
+    padding: 30px;
+}
+.child1{
+    text-align: center;
+    justify-content: center;
+    color: white;
+}
+.child1 h1{
+color: white;
+display: inline-block;
+font-size: 40px;
+font-weight: 600;
+}
+.child1 h1:hover{
+    color: #000;
+    cursor: pointer;
+}
+.child1 h1{
+    color:#000;
+display: inline-block; 
+  font-size: 40px;
+font-weight: 600;
+}
+.child1 h1:hover{
+    color:white;
+    cursor: pointer;
+}
+.child1 p{
+    color:white;
+    cursor: pointer;
+}
+.child1 p:hover{
+    color: #000;
+    cursor: pointer;
+}
+.child2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap:0.5rem;
+}
+.child{
+    width: 230px;
+    height: 240px;
+    display: flex;
+    border-radius: 5px;
+    border: 2px solid whitesmoke;
+    background-color: whitesmoke;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.child:hover{
+    cursor: pointer;
+    box-shadow: 2px 5px 2px rgb(243, 237, 237);
+    transition: all 0.5s ease infinite;
+ }
+.wh{
+    border-top: 2px solid whitesmoke;
+    width: 600px;
+    margin-left: 350px;
+}
+.child img{
+    width: 90px;
+    height: 90px;
+    text-align: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 75%;
+    border: 2px solid white;
+}
+.child img:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 10px #eedf89;
+    transform: scale(-1);
+    transition: all 5s ease ;
+ }
+.child h1{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.child p{
+    text-align: center;
+    font-size: 15px;
+    color:#000;
+}
+
+
+/*section1*/
+.block1{
+    height: 350px;
+    border-radius: 5px;
+    background: linear-gradient(90deg, rgba(89,185,8,1) 0%, rgba(31,213,37,1) 100%);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+} 
+.block1 h1{
+    font-size: 40px;
+    font-weight: 600;
+    color: white;
+    padding-top: 30px;
+    display: inline-block;
+}
+.block1 h1:hover{
+    cursor: pointer;
+    color: black;
+}
+.block1 span{
+    color: black;
+}
+form{
+    padding: 50px 0;
+    margin: 0 120px;
+    display: flex;
+    justify-content: space-between;
+}
+form input{
+    height: 60px;
+    width: 250px;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 5px;
+    border: 2px solid white;
+    padding-left: 20px;
+}
+form .btn{
+    height: 40px;
+    width: 130px;
+    font-size: 15px;
+    font-weight: 400;
+    border-radius: 5px;
+    color:black;
+    border: 1px solid black;
+    margin-top: 10px;
+}
+form .btn:hover{
+    cursor: pointer;
+    color: white;
+    background-color: black;
+    margin-top: 10px;
+}
+.block1 p{
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+
+
+/*section2*/
+.block2{
+    height: max-content;
+    background-color: black;
+    padding: 10px;
+}
+ .block2 h1{
+    text-align: center;
+    color:limegreen;
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+.block2 p{
+    text-align: center;
+color:white;
+font-size: 15px;
+font-weight: 700;
+}
+.block2 span{
+    color: white;
+}
+.block2 span:hover{
+color: transparent;
+cursor: pointer;
+}
+.box1{
+    flex-direction:row;
+    align-items: center;
+    display:flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 30px 70px;
+}
+.box{
+    width: 270px;
+    height: 250px;
+    display: flex;
+    border-radius: 5px;
+    border: 2px solid limegreen;
+    background-color: limegreen;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.box:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 10px #eedf89;
+ }
+ .box i{
+    width: 90px;
+    height: 90px;
+    text-align: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 50%;
+    border: 2px solid white;
+    padding: 20px;
+   
+}
+ .fa-star{
+    font-size: 35px;
+}
+.fa-star:hover{
+    cursor: pointer;
+    color: lime;
+}
+.box h1{
+    color: white;
+    font-size: 30px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.box p{
+    color: #000;
+    font-size: 17px;
+    font-weight: 300;
+}
+.box h6{
+    text-decoration: underline;
+    color: white;
+    margin-bottom: 60px;
+}
+
+
+
+/*footer*/
+#part1{
+    margin:50px 100px;
+    height: max-content;
+    display: flex;
+    gap: 0.2rem;
+}
+.part1{
+display: flex;
+flex-direction: column;
+}
+.logo1 p{
+    font-size: 15px;
+    font-weight: 700;
+    padding-left: 55px;
+}
+.logo1 h1{
+    font-size:25px;
+    padding: 50px 55px;
+}
+.vl{
+    border-right: 2px solid #000;
+    height: 250px;
+    margin-left: 50px;
+}
+
+.part3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.part3 h1{
+    font-size: 26px;
+    text-align: center;
+}
+.part3 h1:hover{
+color: green;
+cursor: pointer;
+}
+.part2 ul,.part3 ul{
+ list-style: none;
+}
+.part3 ul li{
+margin: 0px 15px;
+color: black;
+text-decoration: underline;
+padding-left: 20px;
+}
+.part3 ul li:hover{
+    color: lime;
+    cursor: pointer;
+}
+.part4{
+    text-align: center;
+    justify-content: center;
+}
+.p1,.p2{
+padding-left: 80px;
+}
+.p1 h1{
+    font-size: 30px;
+    color:black;
+}
+.p1 h1:hover{
+    color: limegreen;
+}
+.p1 h6{
+    font-size: 15px;
+    font-weight: 700;
+    color:blue;
+}
+.p1 h6:hover{
+    color: darkblue;
+}
+.p2 h1{
+    font-size: 27px;
+    padding-top: 10px;
+    color: black;
+}
+.p2 h1:hover{
+    color: limegreen;
+}
+.fa-facebook,.fa-twitter,
+    .fa-google-plus-g,
+    .fa-linkedin,.fa-youtube{
+font-size: 25px;
+}
+.fa-facebook:hover,.fa-twitter:hover,
+    .fa-google-plus-g:hover,
+    .fa-linkedin:hover,.fa-youtube:hover{
+      color: blue;
+      cursor: pointer;
+    }
